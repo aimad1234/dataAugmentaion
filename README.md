@@ -6,7 +6,7 @@ This repository contains code for performing data augmentation using the Albumen
 
 To use the code in this repository, you need to install the required dependencies. Run the following command to install the `albumentations` library:
 
-```shell
+```shell```
 !pip install albumentations
 ## Usage
 
@@ -23,7 +23,7 @@ Please note that the usage instructions provided here assume that the reader is 
 
 To use these functions, you need to provide the paths to the source images and labels, as well as the destination paths for the augmented images and labels. Modify the following variables in the code to match your directory structure:
 
-```python
+```python```
 source_images = "your folder images src"
 source_labels = "your folder labels src"
 destination_images = "your folder images des"
