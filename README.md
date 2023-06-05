@@ -6,8 +6,9 @@ This repository contains code for performing data augmentation using the Albumen
 
 To use the code in this repository, you need to install the required dependencies. Run the following command to install the `albumentations` library:
 
-```shell```
+```shell
 !pip install albumentations
+```
 ## Usage
 
 The code in this repository provides several functions for data augmentation:
