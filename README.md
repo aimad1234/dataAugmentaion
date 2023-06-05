@@ -23,13 +23,14 @@ Please note that the usage instructions provided here assume that the reader is 
 
 To use these functions, you need to provide the paths to the source images and labels, as well as the destination paths for the augmented images and labels. Modify the following variables in the code to match your directory structure:
 
-```python```
+```python
 source_images = "your folder images src"
 source_labels = "your folder labels src"
 destination_images = "your folder images des"
 destination_labels = "your folder labels des"
-
+```
 To augment the data, call the `augmentation_data` function with the appropriate source and destination paths:
+```python
 augmentation_data(source_images, source_labels, destination_images, destination_labels)
 
 
